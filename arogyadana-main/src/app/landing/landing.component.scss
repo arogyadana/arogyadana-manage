@@ -1,0 +1,27 @@
+// Landing page specific styles
+// Most styling is handled by Tailwind CSS classes in the template
+
+// Smooth scrolling for the entire page
+html {
+  scroll-behavior: smooth;
+}
+
+// Custom button animations
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+// Custom hover effects for cards
+.hover\:shadow-md:hover {
+  transform: translateY(-2px);
+}
+
+// Custom gradient for hero section background (if needed)
+.hero-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+}
+
+// Ensure icons are properly aligned
+svg {
+  flex-shrink: 0;
+}
